@@ -7,6 +7,17 @@
 	"name": "qube-backend",
 	"main": "src/index.js",
 	"compatibility_date": "2025-12-12",
+	"kv_namespaces": [
+		{
+			"binding": "QUBE_DB",
+			"id": "569f033bff0245c5ae052b6ae6f7ff00"
+		}
+	],
+	"vars": {
+		// Replace with your actual Clerk Frontend API URL
+		// Found in Clerk Dashboard > API Keys > Frontend API URL
+		"CLERK_JWKS_URL": "https://workable-horse-92.clerk.accounts.dev/.well-known/jwks.json"
+  	},
 	"observability": {
 		"enabled": true
 	}
